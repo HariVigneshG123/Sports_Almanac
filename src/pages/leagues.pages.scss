@@ -1,0 +1,27 @@
+.leagues-container {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f8fd;
+
+    .leagues-title {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        background-color: #8082DD;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .league-tile-conatiner {
+        height: 90vh;
+        width: 90vh;
+        background-color: white;
+    }
+}

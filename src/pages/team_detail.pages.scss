@@ -1,0 +1,41 @@
+.team-page {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fd;
+
+    .team-status {
+        height: 14.07vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #8082DD;
+    }
+
+    .team-data {
+        height: 86vh;
+        display: flex;
+        justify-content: center;
+        border-left: solid 1px black;
+        border-right: solid 1px black;
+    }
+
+    .loader-space {
+        height: 86vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #f8f9fd;
+
+        .loader {
+            height: 86vh;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.fixtures {
+    height: 86vh;
+    position: absolute;
+    background-color: white;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    .fixture-table {
+        background-color: white;
+        border-collapse: collapse;
+        font-size: 13px;
+
+        .fixture-table-head {
+            height: 4vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            font-weight: 600;
+
+            .played-team {
+                width: 27vh;
+                text-align: left;
+                margin-left: 0.5rem;
+            }
+
+            .score {
+                width: 10vh;
+                text-align: center;
+            }
+
+            .played-away-team {
+                width: 27vh;
+                text-align: right;
+                margin-right: 0.5rem;
+            }
+
+            .time {
+                width: 26vh;
+                text-align: center;
+            }
+        }
+    }
+}

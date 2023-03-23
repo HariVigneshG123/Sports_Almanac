@@ -1,0 +1,50 @@
+.stats-compressed-detail {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.1px solid lightgrey;
+    text-align: center;
+    align-content: left;
+    align-items: center;
+    justify-content: space-around;
+    height: 5vh;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #e1dbf8;
+    }
+
+    .stats-compressed-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .arrow-space {
+        margin-top: 4px;
+        width: 7vh;
+
+        .expand-arrow {
+            height: 20px;
+            width: 20px;
+        }
+    }
+
+    .stats-league-name {
+        width: 15vh;
+        display: flex;
+        align-items: flex-start;
+        font-size: 12px;
+        font-weight: 600;
+        text-align: left;
+    }
+
+    .stat-space {
+        font-size: 12px;
+        width: 24.5vh;
+        display: flex;
+        align-items: flex-start;
+
+        .header-text {
+            font-weight: 600;
+        }
+    }
+}

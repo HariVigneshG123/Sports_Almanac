@@ -1,0 +1,32 @@
+.player-detail-component{
+    display: flex;
+    flex-direction: row;
+    width: 90vh;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.1px solid lightgrey;
+
+    .player-img{
+        margin: 1rem;
+        display: flex;
+        height: 150px;
+        width: 150px;
+        border-radius: 100;
+    }
+
+    .text-image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        margin-top: 1.0rem;
+        font-size: 12px;
+    
+        .header-text {
+            font-weight: 600;
+        }
+    }
+}
+
+
+
